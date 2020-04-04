@@ -20,28 +20,28 @@ export default function Characters() {
 
     return (
         <>
-        <NavBar />
-        <section className="section-characters">
-            <ul>
-                {characters.map(character => (
-                    <li key={character.id}>
-                        <strong>Name:</strong>
-                        <p>{character.name}</p>
+            <NavBar />
+            <section className="section-characters">
+                <ul>
+                    {characters.map(character => (
+                        <li key={character.id}>
+                            <strong>Name:</strong>
+                            <p>{character.name}</p>
 
-                        <strong>House:</strong>
-                        <p>{character.house}</p>
+                            <strong>House:</strong>
+                            <p>{character.house}</p>
 
-                        <strong>Role:</strong>
-                        <p>{character.role}</p>
+                            <strong>Role:</strong>
+                            <p>{character.role}</p>
 
-                        <strong>Blood:</strong>
-                        <p>{character.bloodStatus}</p>
+                            <strong>Blood:</strong>
+                            <p>{character.bloodStatus}</p>
 
-                    </li>
+                        </li>
 
-                ))}
-            </ul>
-        </section>
+                    ))}
+                </ul>
+            </section>
         </>
     )
 }

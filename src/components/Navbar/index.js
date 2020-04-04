@@ -1,18 +1,15 @@
 import React from 'react'
-import { Button, Navbar, Nav, NavDropdown, Form } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 import './styles.css';
 
 export default function NavBar() {
     return (
-        <Navbar fixed="top" id="navbar" bg="dark" expand="lg">
-            <Navbar.Brand className="navbar-title" href="/">Menuzera top</Navbar.Brand>
+        <Navbar scrolling dark expand="md" fixed="top" className="nav-bar">
+            <Navbar.Brand id="navbar-title" href="/">Menuzera top</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-
-                    <Nav></Nav>
-                    
+                <Nav className="mr-auto"> 
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="#link">Link</Nav.Link>
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
@@ -23,10 +20,6 @@ export default function NavBar() {
                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Form inline>
-                    <Form.Control type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-success">Search</Button>
-                </Form>
             </Navbar.Collapse>
         </Navbar>
     )
