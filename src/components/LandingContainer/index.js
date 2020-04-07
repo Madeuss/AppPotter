@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, ButtonGroup } from 'react-bootstrap';
-import { Link, animateScroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import './styles.css';
 
@@ -23,9 +23,9 @@ export default function LandingContainer() {
                                     smooth={true}
                                     offset={0}
                                     duration= {900}
-                                ><Button variant="secondary">Left</Button></Link>
-                                <Button variant="secondary">Middle</Button>
-                                <Button variant="secondary">Right</Button>
+                                ><Button variant="secondary">Chapéu Seletor</Button></Link>
+                                <Button variant="secondary">Houses</Button>
+                                <Button variant="secondary">Characters</Button>
                             </ButtonGroup>
                     </div>
                 </section>

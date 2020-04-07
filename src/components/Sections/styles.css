@@ -2,14 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: absolute;
-    margin-top: 100vh;
 }
 
 .aside {
     display: grid;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     justify-items: center;
     align-items: center;
 }
@@ -46,3 +45,34 @@
     filter:grayscale(70%);
 }
 
+#section1 {
+    margin-top: 100vh;
+}
+
+#section2 {
+    margin-top: 200vh;
+}
+
+#image-aside2 {
+    border: 1px solid pink;
+}
+
+#image-aside2 img{
+    margin-top: 60px;
+    width: 700px;
+    height: 420px;
+    z-index: 1;
+}
+
+.image-sec {
+    border: 1px solid orangered;
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.image-sec .house {
+    border: 1px solid black;
+}
