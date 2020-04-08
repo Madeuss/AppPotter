@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 import chapeu from '../../assets/chapeu.png';
+import lion from '../../assets/lion.png'
+import serpent from '../../assets/serpent.png'
+import badger from '../../assets/badger.png'
+import eagle from '../../assets/eagle.png'
+
 
 import api from '../../services/api';
 
@@ -52,10 +57,11 @@ export default function Section() {
                     </div>
                 </aside>
                 <aside className="aside" id="image-aside2">
-                    <div className="image-sec" id="image">
+                    <div className="image-sec" id="image-sec2">
                         {houses.map(house => (
                             <div key={house.id}>
-                                <h2>{house.name}</h2>
+                                <img src={`file:///C:/Users/mateu/%C3%81rea%20de%20Trabalho/AppPotter/src/assets/lion.png`} alt={house.mascot} />
+                                <p>{house.name}</p>
                             </div>
                         ))}
                     </div>

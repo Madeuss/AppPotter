@@ -73,6 +73,12 @@
     grid-gap: 10px;
 }
 
-.image-sec .house {
-    border: 1px solid black;
+#image-sec2 {
+    justify-items: center;
+    text-align: center;
+}
+
+#image-sec2 img {
+    width: 100px;
+    height: 100px;
 }
