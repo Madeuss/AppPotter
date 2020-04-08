@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, ButtonGroup } from 'react-bootstrap';
 import { Link } from "react-scroll";
 
 import './styles.css';
@@ -15,18 +14,15 @@ export default function LandingContainer() {
                     <div className="landing-content">
                         <h2>Fodase</h2>
                         <h3>fodasefoda-sefodac</h3>
-                            <ButtonGroup aria-label="Basic example">
-                                <Link
-                                    activeClass="active"
-                                    to="section1"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={0}
-                                    duration= {900}
-                                ><Button variant="secondary">Chapéu Seletor</Button></Link>
-                                <Button variant="secondary">Houses</Button>
-                                <Button variant="secondary">Characters</Button>
-                            </ButtonGroup>
+                        <Link activeClass="active" to="section1" spy={true} smooth={true} offset={0} duration= {900}>
+                               <button className="btn-scroll" type="button">Sorting Hat</button>
+                        </Link>
+                        <Link activeClass="active" to="section2" spy={true} smooth={true} offset={0} duration= {900}>
+                               <button className="btn-scroll" type="button">Houses</button>
+                        </Link>
+                        <Link activeClass="active" to="section3" spy={true} smooth={true} offset={0} duration= {900}>
+                               <button className="btn-scroll" type="button">Characters</button>
+                        </Link>
                     </div>
                 </section>
             </container>

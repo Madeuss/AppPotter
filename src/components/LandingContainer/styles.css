@@ -22,8 +22,35 @@
     margin: 200px auto;
     color: thistle;
     font-weight: bold;
-    z-index: 999;
+    font-family: 'Faerytale Woods';
     animation: contens-trans 4s ease-out;
+}
+
+.landing-data .landing-title h1{
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.btn-scroll {
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, #dd9393, #db8181, #e46a61);
+    margin-left: 5px;
+    height: 40px;
+    font-size: 1.5em;
+    color: rgb(243, 231, 231);
+    width: 150px;
+}
+
+.btn-scroll:hover {
+    background-position: left;
 }
 
 @keyframes bg-trans {

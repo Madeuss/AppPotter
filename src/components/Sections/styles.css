@@ -65,12 +65,11 @@
 }
 
 .image-sec {
-    border: 1px solid orangered;
     width: 80%;
     height: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 
 #image-sec2 {
@@ -81,4 +80,20 @@
 #image-sec2 img {
     width: 100px;
     height: 100px;
+}
+
+.house-div {
+    border: 3px solid rgb(103, 103, 206);
+    background-color: rgb(130, 130, 214);
+    border-radius: 1px;
+    width: 100%;
+    font-family: 'Lumos';
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: ease-in .3s;
+}
+
+.house-div:hover {
+    transform: scale(1.1);
+    transition: ease-in .3s;
 }
