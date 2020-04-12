@@ -15,7 +15,7 @@ export default function LandingContainer() {
                         <h2>Fodase</h2>
                         <h3>fodasefoda-sefodac</h3>
                         <Link activeClass="active" to="section1" spy={true} smooth={true} offset={0} duration= {900}>
-                               <button className="btn-scroll" type="button">Sorting Hat</button>
+                               <button className="btn-scroll" type="button">Descendio</button>
                         </Link>
                         <Link activeClass="active" to="section2" spy={true} smooth={true} offset={0} duration= {900}>
                                <button className="btn-scroll" type="button">Houses</button>
