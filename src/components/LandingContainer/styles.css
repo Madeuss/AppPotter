@@ -20,7 +20,7 @@
 .landing-data {
     text-align: center;
     margin: 200px auto;
-    color: thistle;
+    color: rgb(214, 208, 208);
     font-weight: bold;
     font-family: 'Faerytale Woods';
     animation: contens-trans 4s ease-out;
