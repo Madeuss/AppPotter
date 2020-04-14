@@ -57,8 +57,8 @@ export default function Section() {
                     ))}
                 </div>
             </section>
-            <section className="body-section" id="section2">
-
+            <section className="body-section" id="section3">
+                fodase
             </section>
         </>
     )
