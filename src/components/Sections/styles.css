@@ -55,6 +55,7 @@
 
 #section3 {
     margin-top: 300vh;
+    border: 1px solid seagreen;
 }
 #image-sec2 {
     display: flex;
