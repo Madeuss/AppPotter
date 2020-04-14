@@ -48,24 +48,17 @@ export default function Section() {
                 </aside>
             </section>
             <section className="body-section" id="section2">
-                <aside className="aside" id="info-aside2">
-                    <div className="data-section2">
-                        <h1>Casas</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p>Laudantium, delectus.!</p>
-                        <Link to="/sortingHat"><Button className="btn-section1" variant="outline-dark">Dark</Button></Link>
-                    </div>
-                </aside>
-                <aside className="aside" id="image-aside2">
-                    <div className="image-sec" id="image-sec2">
-                        {houses.map(house => (
-                            <div className="house-div" key={house.id}>
-                                <img src={`https://raw.githubusercontent.com/Madeuss/AppPotter/master/src/assets/${house.mascot}.png`} alt={house.mascot} />
-                                <p>{house.name}</p>
-                            </div>
-                        ))}
-                    </div>
-                </aside>
+                <div id="image-sec2">
+                    {houses.map(house => (
+                        <div className="house-div" key={house.id}>
+                            <img src={`https://raw.githubusercontent.com/Madeuss/AppPotter/master/src/assets/${house.mascot}.png`} alt={house.mascot} />
+                            <p>{house.name}</p>
+                        </div>
+                    ))}
+                </div>
+            </section>
+            <section className="body-section" id="section2">
+
             </section>
         </>
     )
