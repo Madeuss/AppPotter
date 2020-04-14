@@ -78,11 +78,10 @@
 }
 
 #image-sec2 .house-div {
-    border: 3px solid rgb(103, 103, 206);
-    background-color: rgb(130, 130, 214);
-    border-radius: 1px;
+    background-color: rgb(37, 37, 63);
+    color: aliceblue;
     width: 100%;
-    height: 400px;
+    height: 430px;
     margin: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
@@ -91,6 +90,7 @@
     cursor: pointer;
     transition: ease-in .3s;
     z-index: 9999;
+    border-radius: 3px;
 }
 
 .house-div:hover {
