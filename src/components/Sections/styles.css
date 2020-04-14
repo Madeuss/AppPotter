@@ -17,17 +17,17 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    border: 1px solid rgb(185, 185, 185);
+    border: 2px solid rgb(110, 110, 110);
    
-    width: 60%;
-    height: 60%;
+    width: 48%;
+    height: 55%;
     transform: rotateZ(5deg);
 }
 
 #image-aside img{
-    margin-top: 60px;
-    width: 700px;
-    height: 420px;
+    margin-top: 100px;
+    width: 680px;
+    height: 400px;
     position: absolute;
     z-index: 1;
 }
@@ -51,14 +51,6 @@
 
 #section2 {
     margin-top: 200vh;
-}
-
-#image-hat {
-    width: 80%;
-    height: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
 }
 
 #image-sec2 {
